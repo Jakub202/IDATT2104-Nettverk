@@ -41,5 +41,5 @@ wsServer.on('error', (error) => {
     console.error('Error: ', error);
 });
 wsServer.listen(3001, () => {
-    console.log('WebSocket server listening on port 3001');
+    console.log('WebSocket server listening on port 3001.');
 });
